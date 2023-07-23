@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="ayewa-signup.css" />
+    <title>HTML Forms</title>
+  </head>
+
+  <body>
+    <div class="main-div">
+      <div class="div1">
+
+      </div>
+
+      <div class="div2">
+        <div class="form-div">
+          <p class="heading">Welcome to Ayewa's<br /> vibrant network</p>
+          <form>
+            <label for="emailorphone">Email or phone</label>
+            <input type="text" name="email" id="emailorphone" placeholder="Enter your email or phone" required />
+
+            <label for="password">Password</label>
+            <div class="input-container">
+              <input type="password" name="password" id="password" placeholder="Enter your password" minlength="3" maxlength="15" required />
+
+              <div class="show-container">
+                <span>Show</span>
+              </div>
+            </div>
+
+            <p>Forgot password?</p>
+
+            <input class="sign-in" type="submit" value="Sign in" />
+            
+                <hr style="border: 0.5px solid #00000059;" />
+                  <span class="span-or">or</span>
+                <hr style="border: 0.5px solid #00000059;" />
+
+            <div class="main-continue-with-google-container">
+              <input class="continue-with-google" type="submit" value="Continue with Google" />
+
+              <div class="image-container">
+                <img src="https://freesvg.org/img/1534129544.png" alt="Google image" />
+              </div>
+            </div>
+
+            <input class="new-to-ayewa" type="submit" value="New to Ayewa? Sign up" />
+          </form>
+        </div>
+      </div>
+
+      <div class="div3">
+
+      </div>
+    </div>
+  </body>
+</html>
